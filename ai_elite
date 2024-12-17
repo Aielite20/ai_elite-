@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Elite - Your Gateway to AI Training</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* AI-Inspired Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://img.freepik.com/free-vector/abstract-technology-background-digital-tech-circle-lines_1017-32353.jpg') no-repeat center center;
+            background-size: cover;
+            opacity: 0.1;
+            z-index: -1;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(90deg, #0078ff, #00ffb8);
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 120, 255, 0.4);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 0 4px 15px rgba(0, 120, 255, 0.7);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 40px 20px;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+            animation: zoomIn 1s ease-out;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            margin: 15px;
+            background: linear-gradient(90deg, #0078ff, #00ffb8);
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            box-shadow: 0 4px 10px rgba(0, 120, 255, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px rgba(0, 200, 255, 0.8);
+        }
+
+        /* Section for Contact Options */
+        .social-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .social-buttons a {
+            margin: 10px;
+        }
+
+        .social-buttons img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #f1f1f1;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to AI Elite</h1>
+        <p>Your Gateway to Cutting-Edge AI Training and Resources</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- AI-Themed Image -->
+        <div class="image-container">
+            <img src="https://dl.dropboxusercontent.com/scl/fi/dqq9o3gkbe53z89fc3vdw/be5ddb26-9f13-4691-ae56-1351ab903ee9.jpg?rlkey=zgxh3zcko6s09onwo4rut4fre&st=3i86wol3" alt="AI Elite - AI Training">
+        </div>
+
+        <!-- Description -->
+        <p>
+            At <strong>AI Elite</strong>, we are committed to delivering the best online AI training, tailored to individuals and organizations. 
+            We aim to empower you with the skills and knowledge to excel in the world of Artificial Intelligence.
+        </p>
+
+        <p>
+            Connect with us today and start your journey into the exciting realm of AI. From free classes to professional guidance, 
+            we are here to make AI accessible and impactful for everyone.
+        </p>
+
+        <!-- Contact Options -->
+        <div class="social-buttons">
+            <a href="https://wa.link/w79vod" target="_blank" class="button">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp Icon"> Chat with Us on WhatsApp
+            </a>
+            <a href="https://chat.whatsapp.com/CvlixAA59HhLrqd1JrK22n" target="_blank" class="button">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Group Icon"> Join Our Free Class
+            </a>
+            <a href="https://www.instagram.com/aielite20" target="_blank" class="button">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon"> Follow Us on Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61555845572097" target="_blank" class="button">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook Icon"> Follow Us on Facebook
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2024 AI Elite - Empowering the World with Artificial Intelligence
+    </footer>
+</body>
+</html>
